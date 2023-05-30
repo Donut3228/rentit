@@ -19,6 +19,6 @@ from django.urls import path
 from users import views as users_views
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('reg/', users_views.RegistrationView.as_view())
+    path("admin/", admin.site.urls),
+    path("reg/", users_views.RegistrationView.as_view()),
 ]
