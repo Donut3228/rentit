@@ -4,7 +4,7 @@ from .forms import RegistrationForm
 
 
 class RegistrationView(View):
-    form_class = RegistrationForm
+    form_class = Regi   strationForm
     template_name = "registration.html"
 
     def get(self, request):
