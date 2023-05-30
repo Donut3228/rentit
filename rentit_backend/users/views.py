@@ -21,3 +21,7 @@ class RegistrationView(View):
             return redirect("home")
 
         return render(request, self.template_name, {"form": form})
+
+
+def users(request):
+    return render(request, "users.html", {})
